@@ -1,0 +1,50 @@
+{
+  "people": [
+    {
+      "name": "Demis Hassabis",
+      "description": "Google DeepMind CEO",
+      "search_terms": ["Demis Hassabis"],
+      "twitter_handle": "demaborja",
+      "youtube_channels": []
+    },
+    {
+      "name": "Jeff Dean",
+      "description": "Google AI lead",
+      "search_terms": ["Jeff Dean Google", "Jeff Dean AI"],
+      "twitter_handle": "JeffDean",
+      "youtube_channels": []
+    },
+    {
+      "name": "Noam Shazeer",
+      "description": "Character.ai founder",
+      "search_terms": ["Noam Shazeer"],
+      "twitter_handle": null,
+      "youtube_channels": []
+    },
+    {
+      "name": "Andrej Karpathy",
+      "description": "AI researcher, ex-Tesla/OpenAI",
+      "search_terms": ["Andrej Karpathy"],
+      "twitter_handle": "karpathy",
+      "youtube_channels": ["UCWN3xxRkmTPmbKwht9FuE5A"]
+    },
+    {
+      "name": "Dario Amodei",
+      "description": "CEO and founder of Anthropic",
+      "search_terms": ["Dario Amodei"],
+      "twitter_handle": "DarioAmodei",
+      "youtube_channels": []
+    }
+  ],
+  "api_keys": {
+    "youtube": "YOUR_YOUTUBE_API_KEY",
+    "twitter_bearer": "YOUR_TWITTER_BEARER_TOKEN",
+    "newsapi": "YOUR_NEWSAPI_KEY"
+  },
+  "settings": {
+    "max_results_per_source": 10,
+    "days_to_keep": 7,
+    "quality_threshold": 0.5,
+    "update_interval_hours": 1
+  }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Person Radar</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Person Radar</h1>
+            <div class="header-actions">
+                <select id="days-filter">
+                    <option value="1">Last 24 hours</option>
+                    <option value="3">Last 3 days</option>
+                    <option value="7" selected>Last 7 days</option>
+                    <option value="14">Last 14 days</option>
+                    <option value="30">Last 30 days</option>
+                </select>
+                <label class="toggle">
+                    <input type="checkbox" id="show-viewed" checked>
+                    <span>Show viewed</span>
+                </label>
+                <button id="refresh-btn" class="btn btn-primary">
+                    Refresh Data
+                </button>
+            </div>
+        </header>
+
+        <div class="stats-bar" id="stats-bar">
+            <span class="stat">Loading...</span>
+        </div>
+
+        <main id="content-area">
+            <div class="loading">Loading content...</div>
+        </main>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
