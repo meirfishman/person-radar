@@ -1,0 +1,17 @@
+# Person Radar - Python Dependencies
+
+# Web framework
+flask>=2.3.0
+
+# HTTP requests
+requests>=2.28.0
+
+# YouTube API
+google-api-python-client>=2.88.0
+
+# Optional: Better async support
+# aiohttp>=3.8.0
+
+# Development/Testing (optional)
+# pytest>=7.3.0
+# pytest-cov>=4.0.0
